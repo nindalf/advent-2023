@@ -1,9 +1,4 @@
-mod day01;
-
-fn main() {
-    println!("Hello, world!");
-}
-
+pub mod day01;
 
 #[macro_export]
 macro_rules! aoctest {
